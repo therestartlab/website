@@ -58,30 +58,3 @@ text-decoration: underline;
 
 /* HERO */
 .hero {
-text-align: center;
-padding-top: 100px;
-}
-
-
-/* SKILLS */
-.skills-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-gap: 20px;
-}
-
-
-.card {
-background: #ffffff;
-padding: 20px;
-border-radius: 6px;
-border: 1px solid #ddd;
-}
-
-
-/* PROJECT */
-.project {
-background: #ffffff;
-padding: 20px;
-border-left: 4px solid #0077ff;
-}
