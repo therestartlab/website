@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | CS Student Portfolio</title>
+
+  <style>
+    /* ========== RESET & BASE STYLES ========== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    /* ========== NAVBAR ========== */
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav li a:hover {
+      color: #0077ff;
+    }
+
+    /* ========== HERO SECTION ========== */
+    .hero {
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin: 20px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #0077ff;
+      color: #fff;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #005fcc;
+    }
+
+    /* ========== SKILLS ========== */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+    }
+
+    /* ========== PROJECTS ========== */
+    .project {
+      background: #ffffff;
+      padding: 20px;
+      border-left: 4px solid #0077ff;
+    }
+
+    /* ========== FOOTER ========== */
+    footer {
+      background: #ffffff;
+      border-top: 1px solid #ddd;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+
+    footer a {
+      margin: 0 10px;
+      color: #0077ff;
+    }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <h3>Your Name</h3>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Computer Science Student</h1>
+    <p>Learning software development step by step and building real things along the way.</p>
+    <a href="#skills" class="btn">View My Skills</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a computer science major learning programming and web development through practice.
+      This site documents what I learn and the skills I’m building over time.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="card">
+        <h3>HTML & CSS</h3>
+        <p>Building structured, responsive web pages.</p>
+        <p><strong>Status:</strong> Learning</p>
+      </div>
+
+      <div class="card">
+        <h3>Python</h3>
+        <p>Writing basic scripts and solving problems.</p>
+        <p><strong>Status:</strong> Learning</p>
+      </div>
+
+      <div class="card">
+        <h3>Problem Solving</h3>
+        <p>Breaking problems into smaller, manageable parts.</p>
+        <p><strong>Status:</strong> Improving</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Personal Portfolio Website</h3>
+      <p>This website itself — built using HTML and CSS.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Connect with me:</p>
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Email</a>
+  </footer>
+
+</body>
+</html>
